@@ -397,7 +397,6 @@
     padding-bottom: 20px;
     text-align: center;
   }
-
 }
 
 @media only screen and (max-width: 900px) {
@@ -912,18 +911,17 @@
 /*--------------------------------------------- footer --------------------------------------*/
 .footer {
   width: 100%;
-
 }
 .footer .footer-head {
   width: 100%;
-padding: 10px 0px;
+  padding: 10px 0px;
 }
 .footer .footer-head img {
   margin-left: 80px;
 }
 .footer .footer-inner {
   width: 100%;
-padding: 30px 0px;
+  padding: 30px 0px;
   background-color: #33374b;
 }
 .footer .footer-inner .footer-inner-top {
@@ -1039,12 +1037,6 @@ padding: 30px 0px;
   .footer .footer-inner .footer-inner-top {
     justify-content: center;
     height: 900px;
-  }
-  .footer .footer-inner {
-    height: 1100px;
-  }
-  .footer .footer-head {
-    height: 350px;
   }
   .footer .footer-head img {
     display: block;
