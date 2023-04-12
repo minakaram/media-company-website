@@ -155,7 +155,7 @@
 }
 
 @media only screen and (max-width: 1400px) {
-  .nav{
+  .nav {
     padding: 20px 0px;
   }
   .nav .nav-right ul {
@@ -163,7 +163,7 @@
   }
 }
 @media only screen and (max-width: 1000px) {
-  .nav{
+  .nav {
     padding: 20px 0px;
   }
   .nav .nav-right ul {
@@ -343,13 +343,11 @@
 /*------------------------------------------------ expert ------------------------------------------*/
 .expert {
   width: 100%;
-  height: 820px;
   padding: 0.1px;
 }
 
 .expert .expert-inner {
   width: 80%;
-  height: 300px;
   display: flex;
   margin: 50px auto;
   justify-content: space-between;
@@ -358,9 +356,8 @@
 
 .expert .expert-inner .expert-inner1 {
   width: 29%;
-  padding: 0px 0px;
+  padding-bottom: 20px;
   overflow: hidden;
-  height: 580px;
 }
 .expert .expert-inner .expert-inner1 .expert-img {
   overflow: hidden;
@@ -383,10 +380,6 @@
   color: white;
 }
 
-.expert .expert-inner .expert-inner1 img {
-  width: 100%;
-}
-
 .expert .expert-inner .expert-inner1:hover {
   color: white;
   background-color: #3e6896;
@@ -399,28 +392,45 @@
 
 @media only screen and (max-width: 1000px) {
   .expert .expert-inner .expert-inner1 {
-    width: 50%;
-
+    width: 48%;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
     text-align: center;
-    height: 650px;
   }
 
-  .expert {
-    height: 1600px;
-  }
 }
 
+@media only screen and (max-width: 900px) {
+  .expert .expert-inner .expert-inner1 {
+    width: 70%;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  .expert .expert-inner .expert-inner1 img {
+    width: 100%;
+    height: 100%;
+  }
+  .expert .expert-inner {
+    width: 100%;
+    justify-content: center;
+  }
+  .expert .expert-inner .expert-inner1 .expert-img {
+    overflow: hidden;
+    width: 100%;
+  }
+}
 @media only screen and (max-width: 800px) {
   .expert .expert-inner .expert-inner1 {
-    width: 80%;
+    width: 70%;
     text-align: center;
-    height: 630px;
     overflow: hidden;
+    margin-bottom: 20px;
   }
 
   .expert .expert-inner .expert-inner1 img {
-    width: 300px;
-    height: 400px;
+    width: 100%;
+    height: 100%;
   }
 
   .expert .expert-inner {
@@ -428,8 +438,33 @@
     justify-content: center;
   }
 
-  .expert {
-    height: 2200px;
+  .expert .expert-inner .expert-inner1 .expert-img {
+    overflow: hidden;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .expert .expert-inner .expert-inner1 {
+    width: 80%;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+
+  .expert .expert-inner .expert-inner1 img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .expert .expert-inner {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .expert .expert-inner .expert-inner1 .expert-img {
+    overflow: hidden;
+    width: 100%;
   }
 }
 
@@ -877,18 +912,18 @@
 /*--------------------------------------------- footer --------------------------------------*/
 .footer {
   width: 100%;
+
 }
 .footer .footer-head {
   width: 100%;
-  height: 150px;
+padding: 10px 0px;
 }
 .footer .footer-head img {
   margin-left: 80px;
 }
 .footer .footer-inner {
   width: 100%;
-  height: 350px;
-  padding-top: 40px;
+padding: 30px 0px;
   background-color: #33374b;
 }
 .footer .footer-inner .footer-inner-top {
@@ -946,12 +981,7 @@
   .footer .footer-inner .footer-inner-top {
     justify-content: center;
   }
-  .footer .footer-inner {
-    height: 600px;
-  }
-  .footer {
-    height: 800px;
-  }
+
   .footer .footer-inner .copyright .copyright-left {
     width: 80%;
     text-align: center;
@@ -972,12 +1002,7 @@
   .footer .footer-inner .footer-inner-top {
     justify-content: center;
   }
-  .footer .footer-inner {
-    height: 600px;
-  }
-  .footer {
-    height: 800px;
-  }
+
   .footer .footer-inner .copyright .copyright-left {
     width: 80%;
   }
@@ -996,12 +1021,7 @@
   .footer .footer-inner .footer-inner-top {
     justify-content: center;
   }
-  .footer .footer-inner {
-    height: 650px;
-  }
-  .footer {
-    height: 830px;
-  }
+
   .footer .footer-inner .copyright .copyright-left {
     width: 80%;
   }
@@ -1021,7 +1041,6 @@
     height: 900px;
   }
   .footer {
-    height: 1500px;
   }
   .footer .footer-inner {
     height: 1100px;
